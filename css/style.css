@@ -1,0 +1,128 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: black;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: 'Inter-Bold', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Inter-Regular', sans-serif;
+    transition: 0.3s;
+}
+
+/* :hover псевдокласс который изменяет элемент при наведении */
+
+.menu__link:hover {
+    color: #c4c4c4;
+}
+
+.banner {
+    background: url(../img/banner.png);
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+    height: 100%;
+}
+
+.banner__heading {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.banner__btn {
+    border: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px 24px;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.aboutme {
+    background: #0E1C25;
+    padding: 30px 0 112px;
+    color: #FFFFFF;
+}
+
+.aboutme__h2 {
+    text-align: center;
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 48px;
+}
+
+.aboutme__wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.aboutme__desc {
+    max-width: 465px;
+}
+
+.desc__h {
+    font-family: 'Inter-medium', sans-serif;
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 62px;
+}
+
+.dec__p {
+    font-family: 'Inter-medium', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
